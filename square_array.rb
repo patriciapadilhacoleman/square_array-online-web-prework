@@ -1,3 +1,9 @@
 def square_array(array)
-  array.each
+  
+  narray = []
+  array.each |x|
+  
+    narray << Math.exp(x)
+  
+end
 end
