@@ -1,9 +1,12 @@
 def square_array(array)
   
   narray = []
-  array.each |x|
+  array.each  do |x|
   
     narray << Math.exp(x)
   
-end
+  end
+  puts narray
+  narray
+  
 end
