@@ -3,7 +3,7 @@ def square_array(array)
   narray = []
   array.each  do |x|
   
-    narray << Math.exp(x)
+    narray << x ** 2
   
   end
   puts narray
