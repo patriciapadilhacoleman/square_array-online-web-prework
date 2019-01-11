@@ -6,7 +6,7 @@ def square_array(array)
     narray << x ** 2
   
   end
-  puts narray
+  
   narray
   
 end
